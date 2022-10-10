@@ -1,5 +1,6 @@
 import { img_300, unavailable } from "../../Config/config";
 import "./SingleContent.css";
+import { Badge } from "@mui/material";
 // import ContentModal from "../ContentModal/ContentModal";
 
 const SingleContent = ({
@@ -12,6 +13,7 @@ const SingleContent = ({
 }) => {
   return (
     <div className="media">
+      <Badge badgeContent={vote_average} color={vote_average > 6 ? 'primary' : 'secondary'}/>
       <img
         className="poster"
         src={poster ? `${img_300}${poster}` : unavailable}
