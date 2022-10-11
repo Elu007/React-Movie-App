@@ -20,6 +20,8 @@ const Treding = () => {
   useEffect(()=>{
     window.scroll(0,0);
     fetchTrending();
+    // eslist-disable-next-line
+    
   },[page]);
   return (
     <div>
