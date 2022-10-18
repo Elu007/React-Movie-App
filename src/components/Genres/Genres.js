@@ -31,6 +31,7 @@ const Genres = ({
     setGenres(data.genres);
   };
 
+  console.log(genres)
   useEffect(() => {
     fetchGenres();
 
@@ -53,7 +54,7 @@ const Genres = ({
           onDelete={() => handleRemove(genre)}
         />
       ))}
-      {genres.map((genre) => (
+      {selectedGenres.map((genre) => (
         <Chip
           style={{ margin: 2 }}
           label={genre.name}
