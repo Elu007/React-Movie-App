@@ -34,7 +34,7 @@ It is a complete Reactjs project, with movie API support.
 
 ## Tech Stack
 
-**Client:** React, JavaScript, Metarial UI
+**Client:** React, JavaScript, Metarial UI, React-Router-Dom
 
 **Server:** TMDB API
 
@@ -44,7 +44,7 @@ It is a complete Reactjs project, with movie API support.
 
 Contributions are always welcome!
 
-If you want to contribute to this project with some additional and awesome features, raise a issue and create pull request, and you pull request will accept after validation.
+If you want to contribute to this project with some additional and awesome features, raise an issue and create pull request, and your pull request will accept after validation.
 
 
 ## 🚀 About Me
